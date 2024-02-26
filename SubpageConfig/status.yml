@@ -14,7 +14,7 @@ sections:
 - name: Workstation
   icon: fas fa-desktop
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuest: true
     showForUsers: [System]
   widgets:
@@ -26,7 +26,7 @@ sections:
 - name: CPU
   icon: fas fa-microchip
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuests: true
     showForUsers: [System]
   widgets:
@@ -38,7 +38,7 @@ sections:
 - name: Memory
   icon: fas fa-memory
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuests: true
     showForUsers: [System]
   widgets:
@@ -50,7 +50,7 @@ sections:
 - name: GPU
   icon: si-nvidia
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuests: true
     showForUsers: [System]
   widgets:
@@ -62,7 +62,7 @@ sections:
 - name: Network
   icon: fas fa-ethernet
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuests: true
     showForUsers: [System]
   widgets:
@@ -74,7 +74,7 @@ sections:
 - name: I/O Utilization
   icon: fas fa-hdd
   displayData:
-    Cols: 4
+    cols: 2
     hideForGuests: true
     showForUsers: [System]
   widgets:
