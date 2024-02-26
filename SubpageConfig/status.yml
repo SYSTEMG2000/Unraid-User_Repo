@@ -15,7 +15,7 @@ sections:
   icon: fas fa-desktop
   displayData:
     cols: 2
-    hideForGuest: true
+    hideForGuests: true
   widgets:
   - type: iframe
     options:
