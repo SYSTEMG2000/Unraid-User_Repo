@@ -1,0 +1,84 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Oasistem
+  description: System Status
+#  navLinks:
+#  - title:
+#    path:
+#    target:
+  footerText: '- The United Federation of Oasistem -'
+  logo: https://raw.githubusercontent.com/SYSTEMG2000/Unraid-User_Repo/main/Icon/Oasistem_Flag.png
+
+sections:
+- name: Workstation
+  icon: fas fa-desktop
+  displayData:
+    Cols: 4
+    hideForGuest: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://aquasuite.aquacomputer.de/f50fa729-a232-4409-a558-76fc02aef9aa
+      frameHeight: 320
+
+- name: CPU
+  icon: fas fa-microchip
+  displayData:
+    Cols: 4
+    hideForGuests: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=77&kiosk&refresh=1m
+      frameHeight: 320
+
+- name: Memory
+  icon: fas fa-memory
+  displayData:
+    Cols: 4
+    hideForGuests: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=78&kiosk&refresh=1m
+      frameHeight: 320
+
+- name: GPU
+  icon: si-nvidia
+  displayData:
+    Cols: 4
+    hideForGuests: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/7TjwnZzGk/nvidia-smi-metrics?orgId=1&from=now-30m&to=now&viewPanel=2&kiosk&refresh=1m
+      frameHeight: 320
+
+- name: Network
+  icon: fas fa-ethernet
+  displayData:
+    Cols: 4
+    hideForGuests: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=84&kiosk&refresh=1m
+      frameHeight: 320
+
+- name: I/O Utilization
+  icon: fas fa-hdd
+  displayData:
+    Cols: 4
+    hideForGuests: true
+    showForUsers: [System]
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=127&kiosk&refresh=1m
+      frameHeight: 320
