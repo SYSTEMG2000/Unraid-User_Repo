@@ -1,0 +1,70 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Oasistem
+  description: Media & Entertainment
+#  navLinks:
+#  - title:
+#    path:
+#    target:
+  footerText: '- The United Federation of Oasistem -'
+  logo: https://raw.githubusercontent.com/SYSTEMG2000/Unraid-User_Repo/main/Icon/Oasistem_Flag.png
+
+sections:
+- name: Media Site
+  icon: fas fa-play-circle
+  displayData:
+    sectionLayout: grid
+    itemCountX: 2
+    hideForGuests: true
+    showForUsers: [System]
+  items:
+
+  - title: Nyaa
+    description: East Asian Media Torrent Indexes - Outside
+    icon: favicon
+    url: https://nyaa.si/
+
+  - title: Nyaa Sukebei
+    description: East Asian Media Torrent Indexes - Inside
+    icon: favicon
+    url: https://sukebei.nyaa.si/
+
+- name: Private Tracker
+  icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/Torrent_Icon.svg
+  displayData:
+    sectionLayout: grid
+    itemCountX: 2
+    hideForGuests: true
+    showForUsers: [System]
+  items:
+
+  - title: Jpopsuki2.0
+    description: Jpop Music Tracker
+    icon: favicon
+    url: https://jpopsuki.eu/
+
+  - title: qBittorrent Jpopsuki2.0
+    description: VueTorrent WebUI
+    icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/VueTorrent_Icon.svg
+    url: https://qbit-jpopsuki.oasistem.com/
+
+  - title: U2
+    description: U2 Anime Tracker
+    icon: https://u2.dmhy.org/favicon.ico
+    url: https://u2.dmhy.org/
+
+  - title: qBittorrent U2
+    description: VueTorrent WebUI
+    icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/VueTorrent_Icon.svg
+    url: https://qbit-u2.oasistem.com/
+
+  - title: M-Team
+    description: M-Team Comprehensive Tracker
+    icon: https://kp.m-team.cc/favicon.ico
+    url: https://kp.m-team.cc/
+
+  - title: qBittorrent M-Team
+    description: VueTorrent WebUI
+    icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/VueTorrent_Icon.svg
+    url: https://qbit-mteam.oasistem.com/
