@@ -14,11 +14,47 @@ sections:
 - name: Media Site
   icon: fas fa-play-circle
   displayData:
+    sortBy: most-used
     sectionLayout: grid
     itemCountX: 2
     hideForGuests: true
     showForUsers: [System]
   items:
+
+  - title: ACGBox
+    description: ACG Website Encyclopedia
+    icon: favicon
+    url: https://www.acgbox.link/
+
+  - title: Anime Subtitle Club
+    description: VCB-Studio Subtitle Sharing Forum
+    icon: favicon
+    url: https://bbs.acgrip.com/
+
+  - title: BYZH
+    description: Artworks/CG/Model/Design
+    icon: favicon
+    url: https://www.byzhihuo.com/
+
+  - title: DMHY
+    description: Anime Public Tracker
+    icon: favicon
+    url: https://www.dmhy.org/
+
+  - title: E-Hentai
+    description: Hentai Galleries - Outside
+    icon: favicon
+    url: https://e-hentai.org/
+
+  - title: Ex-Hentai
+    description: Hentai Galleries - Inside
+    icon: favicon
+    url: https://exhentai.org/
+
+  - title: ibm5100
+    description: HComic Sorted by Artist
+    icon: https://www.south-plus.net/attachment/upload/42/475242.png
+    url: https://www.south-plus.net/u.php?action-topic-uid-475242.html
 
   - title: Nyaa
     description: East Asian Media Torrent Indexes - Outside
@@ -29,6 +65,21 @@ sections:
     description: East Asian Media Torrent Indexes - Inside
     icon: favicon
     url: https://sukebei.nyaa.si/
+
+  - title: Southplus
+    description: Sukebei Resources Share
+    icon: favicon
+    url: https://www.south-plus.net/
+
+  - title: TSDM
+    description: 
+    icon: favicon
+    url: https://www.tsdm39.com/
+
+  - title: VCB-Studio
+    description: Best BDrip Studio
+    icon: favicon
+    url: http://vcb-s.com/
 
 - name: Private Tracker
   icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/Torrent_Icon.svg
