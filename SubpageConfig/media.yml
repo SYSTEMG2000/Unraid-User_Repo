@@ -38,7 +38,7 @@ sections:
 
   - title: DMHY
     description: Anime Public Tracker
-    icon: favicon
+    icon: https://www.dmhy.org/favicon.ico
     url: https://www.dmhy.org/
 
   - title: E-Hentai
@@ -48,7 +48,7 @@ sections:
 
   - title: Ex-Hentai
     description: Hentai Galleries - Inside
-    icon: favicon
+    icon: https://exhentai.org/favicon.ico
     url: https://exhentai.org/
 
   - title: ibm5100
