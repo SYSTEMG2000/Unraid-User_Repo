@@ -15,8 +15,9 @@ sections:
   icon: fas fa-play-circle
   displayData:
     sortBy: most-used
+    cols: 2
     sectionLayout: grid
-    itemCountX: 2
+    itemCountX: 4
     hideForGuests: true
     showForUsers: [System]
   items:
@@ -65,6 +66,11 @@ sections:
     description: East Asian Media Torrent Indexes - Inside
     icon: favicon
     url: https://sukebei.nyaa.si/
+
+  - title: Pixiv
+    description: Pixiv Fanart
+    icon: favicon
+    url: https://www.pixiv.net/
 
   - title: Southplus
     description: Sukebei Resources Share
@@ -119,3 +125,9 @@ sections:
     description: VueTorrent WebUI
     icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/VueTorrent_Icon.svg
     url: https://qbit-mteam.oasistem.com/
+
+  widgets:
+  - type: iframe
+    options:
+      url: https://status.oasistem.com/d/OEyH9tQZk/qbittorrent-dashboard?orgId=1&from=now-30m&to=now&viewPanel=2&kiosk&refresh=10s
+      frameHeight: 320
