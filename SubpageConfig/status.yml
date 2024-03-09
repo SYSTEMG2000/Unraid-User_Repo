@@ -14,8 +14,9 @@ sections:
 - name: Workstation
   icon: fas fa-desktop
   displayData:
-    cols: 2
-    hideForGuests: true
+    Cols: 4
+    hideForGuest: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
@@ -25,54 +26,58 @@ sections:
 - name: CPU
   icon: fas fa-microchip
   displayData:
-    cols: 2
+    Cols: 4
     hideForGuests: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
-      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=77&kiosk&refresh=1m
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=77&kiosk&refresh=10s
       frameHeight: 320
 
 - name: Memory
   icon: fas fa-memory
   displayData:
-    cols: 2
+    Cols: 4
     hideForGuests: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
-      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=78&kiosk&refresh=1m
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=78&kiosk&refresh=10s
       frameHeight: 320
 
 - name: GPU
   icon: si-nvidia
   displayData:
-    cols: 2
+    Cols: 4
     hideForGuests: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
-      url: https://status.oasistem.com/d/7TjwnZzGk/nvidia-smi-metrics?orgId=1&from=now-30m&to=now&viewPanel=2&kiosk&refresh=1m
+      url: https://status.oasistem.com/d/7TjwnZzGk/nvidia-smi-metrics?orgId=1&from=now-30m&to=now&viewPanel=2&kiosk&refresh=10s
       frameHeight: 320
 
 - name: Network
   icon: fas fa-ethernet
   displayData:
-    cols: 2
+    Cols: 4
     hideForGuests: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
-      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=84&kiosk&refresh=1m
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=84&kiosk&refresh=10s
       frameHeight: 320
 
 - name: I/O Utilization
   icon: fas fa-hdd
   displayData:
-    cols: 2
+    Cols: 4
     hideForGuests: true
+    showForUsers: [System]
   widgets:
   - type: iframe
     options:
-      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=127&kiosk&refresh=1m
-      frameHeight: 320
+      url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=127&kiosk&refresh=10s
