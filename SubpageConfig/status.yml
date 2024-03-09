@@ -81,3 +81,4 @@ sections:
   - type: iframe
     options:
       url: https://status.oasistem.com/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-30m&to=now&viewPanel=127&kiosk&refresh=10s
+      frameHeight: 320
