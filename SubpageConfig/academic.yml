@@ -1,0 +1,113 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Oasistem
+  description: Academic
+#  navLinks:
+#  - title:
+#    path:
+#    target:
+  footerText: '- The United Federation of Oasistem -'
+  logo: https://raw.githubusercontent.com/SYSTEMG2000/Unraid-User_Repo/main/Icon/Oasistem_Flag.png
+
+sections:
+- name: Tokyo Institute of Technology
+  icon: https://svg-rewriter.oasistem.com/?url=https%3A%2F%2Fraw.githubusercontent.com%2FSYSTEMG2000%2FUser_Repo%2Fmain%2FIcon%2FTiTech_Icon.svg&fill=%23052d5d
+  displayData:
+    sectionLayout: grid
+    itemCountX: 2
+  items:
+
+  - title: Home
+    description: TiTech Homepage
+    icon: favicon
+    url: https://www.titech.ac.jp/
+
+  - title: Department
+    description: TiTech Department Page
+    icon: favicon
+    url: https://educ.titech.ac.jp/
+
+  - title: Portal
+    description: TiTech Portal
+    icon: favicon
+    url: https://portal.titech.ac.jp/
+
+  - title: Fujie Laboratory
+    description: Toshinori Fujie Laboratory
+    icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/FujieLab_Icon.png
+    url: https://sites.google.com/view/fujie-laboratory/home
+
+  - title: Tanaka Laboratory
+    description: Hiroto Tanaka Aero/Aqua Biomimetics Lab
+    icon: favicon
+    url: http://www.tanakah.mech.e.titech.ac.jp/
+
+- name: Research Tool
+  icon: fas fa-microscope
+  displayData:
+    sectionLayout: grid
+    itemCountX: 2
+  items:
+
+  - title: American Chemical Society
+    description: Largest Scientific Society of Chemistry Professionals
+    icon: favicon
+    url: https://www.acs.org/
+
+  - title: ImageJ
+    description: Scientific Image Processing and Analyzing
+    icon: favicon
+    url: https://imagej.net/
+
+  - title: Zotero
+    description: Manage Bibliographic Data & Related Research Materials
+    icon: favicon
+    url: https://www.zotero.org/
+
+  - title: Research Rabbit
+    description: Discover Relevant Literature and Scholars
+    icon: favicon
+    url: https://researchrabbitapp.com/
+
+- name: Nature
+#  icon:
+#  displayData:
+  widgets:
+
+  - type: rss-feed
+    options:
+      rssUrl: http://www.nature.com/neuro/journal/vaop/ncurrent/rss.rdf
+      apiKey: qbz7or65b5n4bu8jszsaurlsgb6kmxl8hmymzw0b
+      limit: 5
+      orderBy: pubDate
+      orderDirection: desc
+      parseLocally: false
+
+- name: American Chemical Society
+#  icon:
+#  displayData:
+  widgets:
+
+  - type: rss-feed
+    options:
+      rssUrl: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aabmcb
+      apiKey: qbz7or65b5n4bu8jszsaurlsgb6kmxl8hmymzw0b
+      limit: 5
+      orderBy: pubDate
+      orderDirection: desc
+      parseLocally: false
+
+- name: Biological Psychiatry
+#  icon:
+#  displayData:
+  widgets:
+
+  - type: rss-feed
+    options:
+      rssUrl: https://www.biologicalpsychiatryjournal.com/current.rss
+      apiKey: qbz7or65b5n4bu8jszsaurlsgb6kmxl8hmymzw0b
+      limit: 5
+      orderBy: pubDate
+      orderDirection: desc
+      parseLocally: false
