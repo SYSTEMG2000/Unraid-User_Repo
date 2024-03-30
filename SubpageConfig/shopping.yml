@@ -110,7 +110,7 @@ sections:
 
   - title: 蕪木
     description: Kabuki Coffee Online Store
-    icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
+    icon: https://raw.githubusercontent.com/SYSTEMG2000/User_Repo/main/Icon/Kabuki_Icon.ico
     url: https://kabuki-store.com/
     statusCheckAcceptCodes: '403'
 
