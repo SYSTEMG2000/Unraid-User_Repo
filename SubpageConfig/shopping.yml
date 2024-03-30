@@ -112,6 +112,7 @@ sections:
     description: Kabuki Coffee Online Store
     icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
     url: https://kabuki-store.com/
+    statusCheckAcceptCodes: '403'
 
   - subItems:
 
