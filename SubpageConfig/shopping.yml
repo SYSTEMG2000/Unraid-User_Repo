@@ -1,0 +1,139 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Oasistem
+  description: Shopping
+#  navLinks:
+#  - title:
+#    path:
+#    target:
+  footerText: '- The United Federation of Oasistem -'
+  logo: https://raw.githubusercontent.com/SYSTEMG2000/Unraid-User_Repo/main/Icon/Oasistem_Flag.png
+
+sections:
+- name: Diet
+  icon: fad fa-wheat
+  displayData:
+    sortBy: most-used
+    sectionLayout: grid
+    itemCountX: 2
+  items:
+
+  - title: French Monstar
+    description: (Japanese) Setouchi Food Art Online Store
+    icon: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/595cf8bf428f2d3be80037bb/c67f52dc3580df14fc58.png/w=1880
+    url: https://frenchmonstar.stores.jp/
+    statusCheckAcceptCodes: '403'
+
+  - title: 米鋪 · 吉田屋
+    description: (Japanese) Yoshidaya Online Store
+    icon: https://kome-yoshidaya.com/assets/img/favicon.ico
+    url: https://shop.kome-yoshidaya.com/
+
+  - title: Schmankerl Stube
+    description: (Japanese) Ham & Sausage
+    icon: https://www.rise.sc/uploads/images/resized/370x370/rise/000002/000002/4dc5aad7.png
+    url: http://www.schmankerl-stube.com/
+
+  - title: 職人醬油
+    description: (Japanese) Ultimate Soy Sauce Collection
+    icon: favicon
+    url: https://shop.s-shoyu.com/
+
+  - title: Yakult
+    description: (Japanese) Yakult Delivery Net
+    icon: favicon
+    url: https://yakult-t.jp/shop/
+
+  - subItems:
+
+    - title: French Monstar
+      description: (Japanese) Restaurant·Café Salon·Food Art
+      icon: favicon
+      url: http://www.frenchmonstar.com/
+
+    - title: 米鋪 · 吉田屋
+      description: (Japanese) Yoshidaya Rice Shop
+      icon: favicon
+      url: https://kome-yoshidaya.com/
+
+    - title: 職人醬油
+      description: (Japanese) Ultimate Soy Sauce Collection
+      icon: favicon
+      url: https://s-shoyu.com/
+
+- name: Coffee
+  icon: fad fa-coffee-pot
+  displayData:
+    sectionLayout: grid
+    itemCountX: 2
+  items:
+
+  - title: Micafeto
+    description: Micafeto Online Store
+    icon: favicon
+    url: https://shop.mi-cafeto.com/
+
+  - title: Micafeto Grand Cru
+    description: Member Order List
+    icon: https://play-lh.googleusercontent.com/-LSnNOFPhn7pblGS-bjJp19fyA1fuMDhg-hsq3VpOUiM9bLiyd25JvFEumU8A2uGg5kw
+    url: https://docs.qq.com/sheet/DQ0RsSHdkdEp1UHZR?scene=b62f993966cc6361d15b4e26bGgsr1&tab=BB08J2
+    displayData:
+      hideForGuests: true
+
+  - title: Bnei Coffee
+    description: Bnei Coffee Online Store
+    icon: https://static.wixstatic.com/media/03ea9e_624be1dc0d254c7896521368009f2af6.jpg/v1/fill/w_171,h_129,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/03ea9e_624be1dc0d254c7896521368009f2af6.jpg
+    url: https://bneicoffee.base.shop/
+
+  - title: 機屋
+    description: Hataya Coffee Online Store
+    icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
+    url: https://hatayacoffee.jp/
+
+  - title: 手音
+    description: Tenon Coffee Online Store
+    icon: https://tenon-coffee.com/wp-content/uploads/10.png
+    url: https://tenon.stores.jp/
+
+  - title: 長月
+    description: Coffee Nagatsuki Online Store
+    icon: https://pbs.twimg.com/profile_images/1059643953652219906/M0UtcjVI_400x400.jpg
+    url: https://nagatsuki.buyshop.jp/
+
+  - title: Daphne
+    description: Daphne Online Store
+    icon: favicon
+    url: https://shop.daphne-coffee.jp/
+
+  - title: 蕪木
+    description: Kabuki Coffee Online Store
+    icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
+    url: https://shop.mi-cafeto.com/
+
+  - subItems:
+
+    - title: Micafeto
+      description: Micafeto Official
+      icon: favicon
+      url: https://www.mi-cafeto.com/
+
+    - title: Bnei Coffee
+      description: Bnei Coffee Index Page
+      icon: https://static.wixstatic.com/media/03ea9e_624be1dc0d254c7896521368009f2af6.jpg/v1/fill/w_171,h_129,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/03ea9e_624be1dc0d254c7896521368009f2af6.jpg
+      url: https://www.bneicoffee.net/
+
+    - title: 手音
+      description: Tenon Coffee
+      icon: favicon
+      url: https://tenon-coffee.com/
+
+    - title: Daphne
+      description: Coffee Beans Shop Daphne
+      icon: favicon
+      url: https://www.daphne-coffee.jp/
+
+    - title: 蕪木
+      description: Kabuki Coffee
+      icon: favicon
+      url: http://kabukiyusuke.com/
