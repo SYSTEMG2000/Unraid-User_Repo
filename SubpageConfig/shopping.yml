@@ -88,13 +88,14 @@ sections:
 
   - title: 機屋
     description: Hataya Coffee Online Store
-    icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
+    icon: https://hatayacoffee.com/wp-content/uploads/2021/12/favicon-150x150.png
     url: https://hatayacoffee.jp/
 
   - title: 手音
     description: Tenon Coffee Online Store
     icon: https://tenon-coffee.com/wp-content/uploads/10.png
     url: https://tenon.stores.jp/
+    statusCheckAcceptCodes: '403'
 
   - title: 長月
     description: Coffee Nagatsuki Online Store
@@ -103,13 +104,14 @@ sections:
 
   - title: Daphne
     description: Daphne Online Store
-    icon: favicon
+    icon: https://www.daphne-coffee.jp/wp-content/themes/JAMTPL/cmn/images/icon.ico
     url: https://shop.daphne-coffee.jp/
+    statusCheckAcceptCodes: '403'
 
   - title: 蕪木
     description: Kabuki Coffee Online Store
     icon: http://kabukiyusuke.com/wp160120/wp-content/uploads/2016/02/favicon.ico
-    url: https://shop.mi-cafeto.com/
+    url: https://kabuki-store.com/
 
   - subItems:
 
@@ -122,6 +124,11 @@ sections:
       description: Bnei Coffee Index Page
       icon: https://static.wixstatic.com/media/03ea9e_624be1dc0d254c7896521368009f2af6.jpg/v1/fill/w_171,h_129,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/03ea9e_624be1dc0d254c7896521368009f2af6.jpg
       url: https://www.bneicoffee.net/
+
+    - title: 機屋
+      description: Hataya Coffee
+      icon: favicon
+      url: https://hatayacoffee.com/
 
     - title: 手音
       description: Tenon Coffee
