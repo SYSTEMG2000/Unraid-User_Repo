@@ -106,7 +106,7 @@ sections:
     description: Daphne Online Store
     icon: https://www.daphne-coffee.jp/wp-content/themes/JAMTPL/cmn/images/icon.ico
     url: https://shop.daphne-coffee.jp/
-    statusCheckAcceptCodes: '403'
+    statusCheckAcceptCodes: '503'
 
   - title: 蕪木
     description: Kabuki Coffee Online Store
